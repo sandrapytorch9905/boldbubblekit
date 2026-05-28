@@ -1,0 +1,12 @@
+{
+  "name": "socket-bridge-b8a31d",
+  "version": "1.0.0",
+  "description": "A socket-bridge utility",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["socket-bridge", "utility"],
+  "license": "MIT"
+}
