@@ -1,6 +1,6 @@
 'use strict';
 const os = require('os');
-const APP_NAME = 'socket-bridge-424318';
+const APP_NAME = 'socket-bridge-9dae36';
 const VERSION = '1.0.0';
 class UsocketUbridgeHandler {
   constructor(options = {}) {

